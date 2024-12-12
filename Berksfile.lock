@@ -1,0 +1,10 @@
+DEPENDENCIES
+  venus
+    path: .
+    metadata: true
+  golang
+
+GRAPH
+  venus (1.0.0)
+    golang (>= 0.0.0)
+  golang (1.4.0)
